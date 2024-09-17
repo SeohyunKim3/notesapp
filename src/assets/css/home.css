@@ -10,7 +10,7 @@
     width: fit-content;
     position: relative;
     padding: 20px 30px;
-    scale: calc(90%);
+    scale: calc(80%);
 
     .subheader {
         display: flex;
