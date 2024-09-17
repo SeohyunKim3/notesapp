@@ -1,0 +1,10 @@
+@import './_variables';
+@import './_navigation';
+
+
+html body {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: #EDEDED;
+}
