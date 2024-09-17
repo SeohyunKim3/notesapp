@@ -85,12 +85,12 @@
 
 @media screen and (max-width: 900px) {
     .logo {
-        left: calc(35%);
+        left: calc(30%);
         font-size: 30px;
         top: calc(50%);
     }
     .logoreverse {
-        left: calc(35%);
+        left: calc(30%);
         font-size: 30px;
     }
 }
