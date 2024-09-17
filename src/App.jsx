@@ -24,8 +24,8 @@ function App() {
           <Route element={<Interpretations/>} path="/interpretations"/>
           <Route element={<ContactUs/>} path="/contact-us"/>
           <Route element={<Login/>} path="/login"/>
-          <Route element={<Landing/>} path="/"/>
-          <Route element={<Home/>} path="/landing"/>
+          <Route element={<Landing/>} path="/landing"/>
+          <Route element={<Home/>} path="/"/>
           <Route path="/" render={() => <Navigate to="/home"/>} />
           <Route component={() => 404} />
         </Routes>

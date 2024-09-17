@@ -6,7 +6,7 @@ function Home() {
         <div className="maintext">
             <span>‘해석(解釋) + 하다’</span>
             <span className="section1">
-                <span>나는 사전을 키고 '해석'의 뜻을 찾아봤다.</span>
+                <span>나는 사전을 열고 '해석'의 뜻을 찾아봤다.</span>
                 <span className="gangjo">"사물을 자세히 풀어서 논리적으로 밝히다."</span>
                 <span>나를 토막내면..</span>
                 <span>풀어서 이해할 수 있는 걸까?</span>
