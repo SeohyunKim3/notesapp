@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const navLinks = [
     {
         title: '서적-들',
-        path: '/home',
+        path: '/books',
     },
     {
         title: '해석-들',
