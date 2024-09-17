@@ -87,11 +87,12 @@
     .logo {
         left: calc(30%);
         font-size: 30px;
-        top: calc(50%);
+        top: calc(48%);
     }
     .logoreverse {
         left: calc(30%);
         font-size: 30px;
+        top: 58.5%;
     }
 }
 
