@@ -1,8 +1,7 @@
 .site-footer {
-    position: absolute;
-    bottom: 0px;
     font-size: 14px;
+    position: absolute;
     color: #939393;
     padding: 0px 10px 0px 30px;
-    right: 50px;
+    opacity: 0%;
 }
