@@ -11,6 +11,7 @@
         width: 460px;
         scale: calc(95%);
         padding: 40px 40px;
+        overflow: hidden;
 
         &.active {
             right: 400px;
