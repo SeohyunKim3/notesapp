@@ -3,13 +3,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 40px 5%;
+    margin: 0px 5%;
     font-size: 28px;
     font-weight: 800;
     background-color: white;
     width: fit-content;
     position: relative;
-    padding: 40px;
+    padding: 20px 30px;
+    scale: calc(90%);
 
     .subheader {
         display: flex;
