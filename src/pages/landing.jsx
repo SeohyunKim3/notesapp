@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "../assets/css/landing.css"
 
 function Landing() {
-    const [menuActive, setMenuActive] = useState(false)
+    const [menuActive, setMenuActive] = useState(true)
 
     return (
         <div className="background-design">
@@ -16,7 +16,7 @@ function Landing() {
             <div className="logoreverse">[ 해석 하다 ]</div>
 
             <div className={`maintext ${menuActive ? 'active' : ''}`}>
-            <div className="maintext">
+            <div className="maintext" onClick={() => setMenuActive(!menuActive)}>
             <span>‘해석(解釋) + 하다’</span>
             <span className="section1">
                 <span>나는 사전을 열고 '해석'의 뜻을 찾아봤다.</span>
