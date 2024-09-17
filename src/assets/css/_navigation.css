@@ -77,7 +77,7 @@
     .site-navigation {
         .menu-content-container {
             width: 300px;
-            height: calc(100%);
+            bottom: 0px;
             background: white;
             position: absolute;
             top: 65px;
@@ -85,16 +85,23 @@
             transition: 300ms ease left;
             flex-direction: column-reverse;
             padding: 0;
+            overflow: hidden;
+            z-index: 1;
+            border-right: 1px solid rgba(0, 0, 0, 0.20);
+            box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.12);
 
             .menu-avatar-container {
-                margin: 30px;
+                margin: 20px;
+                padding: 20px;
+                padding-left: 0px;
+                background: #f5f5f5;
             }
 
             .menu-avatar-name {
-                font-size: 14px;
+                font-size: 16px;
             }
             .menu-avatar-description {
-                font-size: 14px;
+                font-size: 13px;
             }
 
             a {
