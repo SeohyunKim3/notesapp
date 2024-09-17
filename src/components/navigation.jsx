@@ -3,19 +3,19 @@ import {Link} from 'react-router-dom'
 
 const navLinks = [
     {
-        title: '도서관',
+        title: '서적-들',
         path: '/home',
     },
     {
-        title: '해석들',
+        title: '해석-들',
         path: '/interpretations'
     },
     {
-        title: '연락하기',
+        title: '제작 하다',
         path: '/contact-us'
     },
     {
-        title: '로그인',
+        title: '연결 하다',
         path: '/login'
     },
 ]
