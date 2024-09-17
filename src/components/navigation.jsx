@@ -25,7 +25,7 @@ function Navigation({user}) {
 
     return (
         <nav className="site-navigation">
-            <span className="menu-title">[ 해석하다 ]</span>
+            <span className="menu-title"><Link to={"./landing"}>[ 해석 하다 ]</Link></span>
             <div className={`menu-content-container ${menuActive ? 'active' : ''}`}>
                 <ul>
                     { navLinks.map((link, index) => (
