@@ -7,7 +7,7 @@
         position: absolute;
         right: -400px;
         transition: 400ms ease right;
-        bottom: 0px;
+        bottom: -60px;
         width: 460px;
         scale: calc(95%);
         padding: 40px 40px;
