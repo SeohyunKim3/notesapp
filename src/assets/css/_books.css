@@ -41,7 +41,10 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
+    * {
+        display: none;
+    }
     .subheading, input[type=text] {
         width: 90%;
 }
