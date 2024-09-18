@@ -1,0 +1,18 @@
+.books {
+    h1 {
+        color: black;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .heading {
+        font-size: 20px;
+    }
+
+    .row {
+        position: relative;
+        top: 100px;
+    }
+}
+
+

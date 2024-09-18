@@ -6,7 +6,9 @@
     justify-content: space-between;
     color: #898989;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.04);
-    z-index: 1;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
     
     .menu-title {
 
@@ -83,7 +85,7 @@
             width: 300px;
             bottom: 0px;
             background: white;
-            position: absolute;
+            position: fixed;
             top: 65px;
             left: -300px;
             transition: 300ms ease left;
