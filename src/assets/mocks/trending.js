@@ -17,7 +17,7 @@ export default [
         pronunciation: ['[해석 하다]'],
         link: '#',
         image: 'defaulttrendingimage.svg',
-        description: '쉽게 이해하도록 잘게 자르다, 조각내다.'
+        description: '쉽게 이해하도록 잘게 자르다, 조각내다.',
     },
     {
         title: '변호하다',
@@ -26,7 +26,7 @@ export default [
         pronunciation: ['[변호 하다]'],
         link: '#',
         image: 'defaulttrendingimage.svg',
-        description: '사건/일이 발생하고 나서 이해하려고 노력하다.'
+        description: '감싸고 변명하다.'
     },
     {
         title: '거울 반사',
@@ -62,6 +62,6 @@ export default [
         pronunciation: ['[호기심]'],
         link: '#',
         image: 'defaulttrendingimage.svg',
-        description: '세상에서 나를 가장 궁금해하는 사람은 누구인가'
+        description: '세상에서 나를 가장 궁금해하는 사람은 누구일까.'
     },
 ]
