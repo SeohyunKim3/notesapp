@@ -80,3 +80,9 @@
         color: #716D6D;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .masonry-post {
+        max-width: 300px;
+    }
+}
