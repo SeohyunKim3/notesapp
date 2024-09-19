@@ -22,12 +22,12 @@ function Books() {
 
     return (
     <section className="container books">
+                <div className="secondrow">
+                <button onClick={()=>createInterpretation()} className="subheading">당신은 무엇을 궁금해하나요?</button>
+        </div>
         <div className="row">
             <h1 className="heading">당신의 호기심을 자극하는 해석이 있나요?</h1>
             <PostMasonry posts={trending}/>
-        <div className="secondrow">
-                <button onClick={()=>createInterpretation()} className="subheading">당신은 무엇을 궁금해하나요?</button>
-        </div>
         </div>
     </section>
     )

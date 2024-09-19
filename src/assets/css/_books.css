@@ -12,11 +12,9 @@
         font-size: 20px;
         padding: 40px;
     }
-    
 
     .row {
         position: relative;
-        top: 60px;
     }
 }
 
@@ -24,11 +22,11 @@
     display: flex;
     justify-content: center;
     background: #F5F5F5;
-    padding: 50px;
+    padding-top: 4%;
 }
 
 .subheading {
-    width: 50%;
+    width: 40%;
     height: 50px;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.06);
@@ -55,7 +53,13 @@
 
 @media screen and (max-width: 600px) {
 
-    .subheading, input[type=text] {
-        width: 90%;
+    .secondrow {
+        width: 100%;
+        padding-top: 8%;
+
+        .subheading {
+            font-size: 14px;
+        }
 }
+
 }

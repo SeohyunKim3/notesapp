@@ -1,5 +1,3 @@
-.background-design {
-    background-color: #F5F5F5;
 
     .maintext {
         display: flex;
@@ -33,96 +31,99 @@
     
     .rectangles-rightside {
         background-color: #4C4A4A;
-        position: absolute;
+        position: fixed;
         width: 4px;
         height: 93.4%;
         right: 0px;
         bottom: 0px;
+    }
 
-        .rectangle-rightside-1 {
-            background-color: #999999;
-            position: absolute;
-            width: 36px;
-            height: 90%;
-            right: 0px;
-            z-index: -1;
-            bottom: 0px;
-        }
-        .rectangle-rightside-2 {
-            background-color: #999999;
-            position: absolute;
-            opacity: 80%;
-            width: 36px;
-            height: 86%;
-            right: 8px;
-            z-index: -1;
-            bottom: 0px;
-        }
+    .rectangle-rightside-1 {
+        background-color: #999999;
+        position: fixed;
+        width: 36px;
+        height: 90%;
+        right: 0px;
+        z-index: -1;
+        bottom: 0px;
+    }
+    .rectangle-rightside-2 {
+        background-color: #999999;
+        position: fixed;
+        opacity: 80%;
+        width: 36px;
+        height: 86%;
+        right: 8px;
+        z-index: -1;
+        bottom: 0px;
     }
     
     .rectangles-bottom {
-        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column-reverse;
         position: absolute;
-        bottom: 0px;
-        height: 45%;
-        width: 85%;
+        bottom: 0;
+        height: 80%;
+        width: 75%;
+
+        .rectangles-bottom-bottom {
+            background-color: #D9D9D9;
+            height: calc(50%);
+
+            .logoreverse {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: transparent;
+                font-size: 46px;
+                font-weight: 600;
+                padding-bottom: 5px;
+                padding-left: 20%;
+                color: white;
+                transform: scale(-1, 1);
+                -webkit-transform: scale(-1, 1);
+                -o-transform: scale(-1, 1);
+                -ms-transform: scale(-1, 1);
+                transform: scale(1, -1);
+            }
+        }
+
+        .rectangles-bottom-top {
+            background-color: transparent;
+
+            .logo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: transparent;
+                font-size: 46px;
+                font-weight: 600;
+                padding-bottom: 5px;
+                padding-left: 20%;
+                color: rgba(0, 0, 0, 0.40);
+                text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.08);
+            }
+        }
     }
 
     .rectangles-leftside {
         background-color: transparent;
-        position: absolute;
+        position: fixed;
         opacity: 40%;
         left: 0px;
         width: 16%;
         bottom: 0px;
         height: 100%;
         z-index: -1;
-        border-right: 1px solid #030303;    }
-}
-.logo {
-    color: rgba(0, 0, 0, 0.40);
-    background: transparent;
-    position: absolute;
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.08);
-    font-size: 46px;
-    font-weight: 600;
-    left: calc(40%);
-    top: calc(48%);
-    display: flex;
-    width: fit-content;
-    justify-content: center;
-}
+        border-right: 1px solid #030303;    
+    }
 
-.logoreverse {
-    background: linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.70) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    font-size: 46px;
-    font-weight: 600;
-    left: calc(40%);
-    top: calc(56%);
-    display: flex;
-    width: fit-content;
-    justify-content: center;
-    transform: scale(-1, 1);
-    -webkit-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(1, -1);
-}
+
 
 @media screen and (max-width: 900px) {
-    .logo {
-        left: calc(30%);
+    .logo .logoreverse {
         font-size: 34px;
-        top: calc(48%);
-    }
-    .logoreverse {
-        left: calc(30%);
-        font-size: 34px;
-        top: 58.5%;
     }
 }
 
