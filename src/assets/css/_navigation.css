@@ -133,6 +133,7 @@
         }
         .ion-ios-menu {
             display: flex;
+            top: 10px;
         }
     }
 }
